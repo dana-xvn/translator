@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>摩斯密碼翻譯器</title>
+</head>
+<body>
+    <div class="boxes">
+        <div class="box boxLeft">
+            <!-- <h3>Morse Code Translator</h3> -->
+            <h1>地支/生肖查詢</h1>
+            <textarea class="input" rows="3" placeholder="輸入地支"></textarea>
+            <div class="arrow">⇵</div>
+            <textarea class="output" rows="3" placeholder="輸入生肖"></textarea>
+            <div class="buttons">
+                <button class="morseBtn coffee">地支查生肖</button>
+                <button class="engBtn green">生肖查地支</button>
+            </div>
+        </div>
+        <div class="box boxRight yellow">
+            <h3>地支/生肖對照表</h3>
+            <hr>
+            <ul class="transList"></ul>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/color/jquery.color-2.2.0.min.js" integrity="sha256-aSe2ZC5QeunlL/w/7PsVKmV+fa0eDbmybn/ptsKHR6I=" crossorigin="anonymous"></script>
+    <script src="js/code.js"></script>
+</body>
+</html>
